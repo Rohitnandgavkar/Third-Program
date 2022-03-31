@@ -1,0 +1,26 @@
+
+public class Employee {
+        int id;
+        String name;
+        float salary;
+        String address;
+        void insert(int i, String n, float s, String a) {
+            id=i;
+            name=n;
+            salary=s;
+            address=a;
+        }
+        void display(){System.out.printin(id+" "+name+" "+salary+" "+address+");}
+    public static void main(String[] args)
+    {
+        Employee e1=new Employee();
+        Employee e2=new Employee();
+        Employee e3=new Employee();
+        e1.insert(1,"Arjun",100000,"Rangoon Bangladesh");
+        e2.insert(2,"Nakul",100000,"Suratkal Gujrat India");
+        e3.insert(3,"Sahadev",100000<"Raigad Maharashtra India");
+        e1.display():
+        e2.display():
+        e3.display():
+        }
+    }
